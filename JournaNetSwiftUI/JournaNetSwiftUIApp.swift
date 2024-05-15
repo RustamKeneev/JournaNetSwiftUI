@@ -13,7 +13,9 @@ struct JournaNetSwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MainView()
+//            CustomLoadingView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

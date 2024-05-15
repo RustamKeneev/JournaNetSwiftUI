@@ -13,6 +13,9 @@
 		FFD4CD4C2BF523F80063DF63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD4CD4B2BF523F80063DF63 /* Preview Assets.xcassets */; };
 		FFD4CD4E2BF523F80063DF63 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4CD4D2BF523F80063DF63 /* Persistence.swift */; };
 		FFD4CD512BF523F80063DF63 /* JournaNetSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFD4CD4F2BF523F80063DF63 /* JournaNetSwiftUI.xcdatamodeld */; };
+		FFD4CD592BF5242B0063DF63 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4CD582BF5242B0063DF63 /* MainView.swift */; };
+		FFD4CD5C2BF527810063DF63 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4CD5B2BF527810063DF63 /* CustomLoadingView.swift */; };
+		FFD4CD5F2BF52BCB0063DF63 /* CustomExtensionLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4CD5E2BF52BCB0063DF63 /* CustomExtensionLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		FFD4CD4B2BF523F80063DF63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFD4CD4D2BF523F80063DF63 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FFD4CD502BF523F80063DF63 /* JournaNetSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JournaNetSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		FFD4CD582BF5242B0063DF63 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FFD4CD5B2BF527810063DF63 /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
+		FFD4CD5E2BF52BCB0063DF63 /* CustomExtensionLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtensionLoading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 		FFD4CD432BF523F70063DF63 /* JournaNetSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFD4CD5D2BF52B950063DF63 /* Extension */,
+				FFD4CD5A2BF527610063DF63 /* Launch */,
+				FFD4CD572BF524150063DF63 /* Main */,
 				FFD4CD442BF523F70063DF63 /* JournaNetSwiftUIApp.swift */,
 				FFD4CD462BF523F70063DF63 /* ContentView.swift */,
 				FFD4CD482BF523F80063DF63 /* Assets.xcassets */,
@@ -71,6 +80,30 @@
 				FFD4CD4B2BF523F80063DF63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFD4CD572BF524150063DF63 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4CD582BF5242B0063DF63 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FFD4CD5A2BF527610063DF63 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4CD5B2BF527810063DF63 /* CustomLoadingView.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		FFD4CD5D2BF52B950063DF63 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4CD5E2BF52BCB0063DF63 /* CustomExtensionLoading.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD4CD5F2BF52BCB0063DF63 /* CustomExtensionLoading.swift in Sources */,
 				FFD4CD4E2BF523F80063DF63 /* Persistence.swift in Sources */,
 				FFD4CD472BF523F70063DF63 /* ContentView.swift in Sources */,
 				FFD4CD512BF523F80063DF63 /* JournaNetSwiftUI.xcdatamodeld in Sources */,
+				FFD4CD592BF5242B0063DF63 /* MainView.swift in Sources */,
+				FFD4CD5C2BF527810063DF63 /* CustomLoadingView.swift in Sources */,
 				FFD4CD452BF523F70063DF63 /* JournaNetSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
